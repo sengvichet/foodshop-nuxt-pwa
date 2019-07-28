@@ -1,0 +1,141 @@
+
+.header-main {
+  height: 85vh;
+  width: 100%;
+  min-height: 42.5rem;
+  max-height: 90rem;
+  background-image:
+    linear-gradient(to right bottom,
+    $color-primary-medium,
+    $color-primary-light);
+  background-repeat: no-repeat;
+  position: relative;
+
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+
+  @include respond(tab-port){
+    height: 65vh;
+  }
+
+  @include respond(phone){
+    height: 75vh;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+  }
+  &__top-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    @include respond(phone){
+      flex-direction: column;
+    }
+  }
+  &__logo-box{
+    position: relative;
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    transition: all .2s;
+    animation: moveInLeft 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+
+    @include respond(tab-port){
+      animation: moveInLeft 0.5s ease-out 0.75s;
+      animation-fill-mode: backwards;
+
+    }
+
+    @include respond(phone){
+      animation: moveInBottomLogoMobile 0.5s ease-out 0.75s;
+      animation-fill-mode: backwards;
+      padding: 2rem;
+    }
+  }
+
+  &__animation-container {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+    transition: all .2s;
+  }
+
+  &__text-box {
+
+    width: 100%;
+    transform: translateY(50%);
+    text-align: center;
+    padding: 1rem;
+
+    @include respond(tab-port){
+      transform: translateY(30%);
+    }
+
+    @include respond(phone){
+      padding: 0 3rem;
+      transform: translateY(0%);
+    }
+  }
+
+  &__top-right-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    animation: moveInRight 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+    transition: all .2s;
+    @include respond(tab-port){
+      justify-content: flex-end;
+    }
+    @include respond(phone){
+      padding: 2rem;
+    }
+  }
+}
+
+.section-benefits {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.section-join {
+    padding: 5rem 0rem;
+
+    &__text-box {
+      text-align: center;
+    }
+}
+
+.section-pricing {
+  margin-top: 2rem;
+  padding-top: 30rem;
+  background-image:
+    linear-gradient(to right bottom,
+    rgba(0,255,167,1),
+    rgba(55,187,192,1));
+
+  /* position: relative; */
+
+  -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+
+  @include respond(tab-port){
+    padding-top: 20rem;
+    -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  @include respond(phone){
+    padding-top: 10rem;
+    -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.bottom-box {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  @include clearfix;
+}

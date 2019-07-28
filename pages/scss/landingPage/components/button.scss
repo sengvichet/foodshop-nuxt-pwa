@@ -1,0 +1,132 @@
+.btn{
+  &:link,
+  &:visited {
+      padding: 1rem 2rem;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: $radius;
+      transition: all .2s; // sets a transition to all changes
+      position: relative;
+      z-index: 1;
+  }
+  //lift button and increase shadow when hovered
+  &:hover {
+    transform: translateY(-.3rem);
+    box-shadow: $shadow-small;
+
+    //crazy fly-out effect. uses transition property from the .btn::after class below
+    &::after {
+      transform: scalex(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+  // reduce shadow when clicked/active
+  &:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 1rem rgba($color-black,0.2);
+  }
+
+  //white button
+  &--white-large {
+    width: 70%;
+    max-width: 55rem;
+    font-size: $small-header-size;
+    box-shadow: $shadow-xsmall;
+    background-color: $color-white;
+    color: $color-primary-dark !important;
+
+    @include respond(phone){
+      font-size: 2.5rem !important;
+    }
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
+  // transparent button, small
+  &--transparent-small {
+
+    border: .2rem solid $color-white;
+    background-color: $color-transparent;
+    box-shadow: none;
+    color: $color-white !important;
+    font-size: $default-font-size;
+    letter-spacing: .25rem;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-primary-dark !important;
+
+      &::after {
+        background-color: $color-white;
+        transform: scalex(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+    }
+
+    &::after {
+      background-color: $color-transparent;
+    }
+  }
+
+
+  //green button
+  &--green {
+    background-color: $color-primary-light;
+    color: $color-white !important;
+    font-size: $default-font-size;
+    letter-spacing: .25rem;
+
+    &::after {
+      background-color: $color-primary-light;
+    }
+  }
+
+  //the hidden button behind the button, which is animated to fly out when hovered over
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: $radius;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    transition: all .2s; // this controls the speed of the transform property in .btn:hover::after
+  }
+
+  // animating the button on page-load
+  &--animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    padding: 1rem;
+    margin-right: 2rem;
+    font-size: $default-font-size;
+    color: $color-white !important;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: .12rem;
+    transition: all .2s;
+  }
+
+  &:hover {
+    border-radius: $radius;
+    background-color: $color-white;
+    color: $color-primary-dark !important;
+    box-shadow: $shadow-small;
+    // transform: translateY(-.2rem);
+  }
+
+  &:active {
+    box-shadow: $shadow-xsmall;
+    transform: translateY(0);
+  }
+}

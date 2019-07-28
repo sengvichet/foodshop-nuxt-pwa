@@ -1,0 +1,85 @@
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5.5rem;
+  background-color: $color-app-footer;
+
+  @supports ((backdrop-filter: blur(2px)) or (-webkit-backdrop-filter: blur(2px))){
+
+    background-color: $color-app-footer-transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  &__item {
+    flex-grow: 1;
+    flex-basis: 33.3%;
+
+    &--back {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  &__cart-elments {
+    flex-basis: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+
+  &__cart-elments a.checkout:link {
+    width: 14rem;
+    height: 5rem;
+    line-height: 5rem;
+    background: #08bd4b;
+    color: #fff !important;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+
+  }
+  &__cart-elments a.checkout:visited{
+    color: #fff;
+  }
+  &__cart-elments .cart-total:hover {
+    cursor: pointer;
+  }
+  &__cart-elments .cart-total {
+    width: 11rem;
+    text-align: right;
+    margin: 1rem 4rem;
+    margin-left: 2rem;
+    background-image: url('~assets/images/iconCartButton.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+
+  }
+  &__cart-elments .cart-total p:nth-child(1) {
+    margin-bottom: 0px;
+
+  }
+  &__cart-elments .cart-total p:nth-child(2) {
+    margin-bottom: 0px;
+    font-size: .7em;
+    margin-top: -5px;
+
+  }
+
+  &__menu-icon {
+    flex-basis: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+}

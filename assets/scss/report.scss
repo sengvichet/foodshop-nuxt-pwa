@@ -1,0 +1,44 @@
+.report {
+
+  &__title {
+    font-weight: 600;
+
+    @include modal-content__heading;
+
+    &--deviation {
+      @include modal-content__heading--deviation;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  &__sub-title {
+
+    @include modal-content__sub-heading;
+
+
+  }
+
+
+
+  // &__title {
+  //   @include list-bar-heading-primary;
+  //   vertical-align: middle;
+  //   margin: 0;
+  // }
+
+  &__info {
+    @include list-bar__info;
+    margin-bottom: 0 !important;
+
+    &--deviation {
+      @include list-bar__info--deviation;
+      margin-bottom: 0 !important;
+
+      &-link {
+        color: $color-primary-dark;
+        font-size: 1.4rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

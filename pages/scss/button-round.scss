@@ -1,0 +1,44 @@
+.round-button {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+  overflow: hidden;
+
+  @include shadow-primary;
+
+  &--print {
+    background-image: url(~assets/images/icons/Icon_Print_Dark_Teal.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &--upload {
+    background-image: url(~assets/images/icon-images-green@3x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-bottom: $round-button-margin-bottom;
+    cursor: pointer;
+  }
+
+  &--edit-image {
+    background-color: $color-image-overlay-background;
+    background-image: url(~assets/images/icons/Icon_Edit_White.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}

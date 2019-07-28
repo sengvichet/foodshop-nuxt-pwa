@@ -1,0 +1,12 @@
+@mixin shadow-primary {
+  box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
+}
+
+@mixin gradient-warning {
+  background-image: linear-gradient(to bottom right, $color-warning-secondary, $color-warning-primary);
+  background-repeat: no-repeat;
+}
+@mixin gradient-main {
+  background-image: linear-gradient(to bottom right, $color-primary-teal, $color-primary-lime);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-primary-dark;
+}
+
+.heading-primary {
+  color: $color-white;
+  font-size: $large-header-size !important;
+  font-weight: 200 !important;
+  letter-spacing: 0.5rem !important;
+  padding: 0 1rem !important;
+  margin: 0 auto;
+
+  @include respond(tab-port){
+    font-size: $medium-header-size !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.5rem !important;
+  }
+
+  @include respond(phone){
+    font-size: $small-header-size !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.2rem !important;
+  }
+
+
+}
+
+.sub-tag-line {
+  color: $color-primary-dark;
+  font-size: $small-font-size !important;
+  font-weight: 200 !important;
+  margin: 0 auto;
+
+  @include respond(tab-port){
+    font-weight: 400 !important;
+  }
+
+  @include respond(phone){
+    font-weight: 400 !important;
+    font-size: 1.4 !important;
+  }
+}
+
+.calltoaction {
+  font-size: $large-header-size;
+  text-align: center;
+
+  @include respond(tab-port){
+    font-weight: 400 !important;
+    font-size: 3.5rem !important;
+  }
+
+  @include respond(phone){
+    font-weight: 400 !important;
+    font-size: 2.5rem !important;
+  }
+}

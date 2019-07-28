@@ -1,0 +1,50 @@
+.order-summary {
+  font-weight: 400;
+
+  @include modal-content__text;
+
+  &__customer-name {
+    font-weight: 600;
+
+    @include modal-content__heading;
+  }
+
+  &__company-name {
+    white-space: nowrap;
+    font-weight: 600;
+
+    @include modal-content__heading;
+  }
+
+  &__delivery-point{
+
+    &-name,
+    &-address {
+      white-space: nowrap;
+    }
+  }
+
+  &__products {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+
+    &__num {
+      display: inline;
+    }
+
+    &__price {
+      display: inline;
+    }
+  }
+
+  &__comment{
+
+    &-title{
+      @include modal-content__heading;
+    }
+  }
+}

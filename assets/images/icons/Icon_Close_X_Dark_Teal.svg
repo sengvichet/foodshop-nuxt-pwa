@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Finals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Cooldown-Log" transform="translate(-332.000000, -41.000000)" stroke="#14514E">
+            <path d="M349,48.6583333 L340.7,48.6583333 L340.7,40 C340.7,39.7238576 340.476142,39.5 340.2,39.5 C339.923858,39.5 339.7,39.7238576 339.7,40 L339.7,48.6583333 L331,48.6583333 C330.723858,48.6583333 330.5,48.882191 330.5,49.1583333 C330.5,49.4344757 330.723858,49.6583333 331,49.6583333 L339.7,49.6583333 L339.7,58 C339.7,58.2761424 339.923858,58.5 340.2,58.5 C340.476142,58.5 340.7,58.2761424 340.7,58 L340.7,49.6583333 L349,49.6583333 C349.276142,49.6583333 349.5,49.4344757 349.5,49.1583333 C349.5,48.882191 349.276142,48.6583333 349,48.6583333 Z" id="Combined-Shape" transform="translate(340.000000, 49.000000) rotate(45.000000) translate(-340.000000, -49.000000) "></path>
+        </g>
+    </g>
+</svg>

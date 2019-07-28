@@ -1,0 +1,64 @@
+
+$list-bar-height: 6rem;
+$list-bar-margin-bottom: 1.5rem;
+$list-bar-padding: 2rem;
+$deviation-border: .2rem;
+$round-button-margin-bottom: 4rem;
+$border-radius-primary: 1rem;
+$side-gutters: 1.5rem;
+
+$ui-content-max-width-wide: 96rem;
+$ui-content-max-width-small: 54rem;
+
+$default-animation-duration: .2s;
+
+
+//COLORS
+
+$color-primary-light: #00ffa7;
+$color-primary-medium: #37bcc1;
+$color-primary-dark: #1D7571;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-orange: orange;
+$color-grey-light-1: #f7f7f7;
+
+$color-white: #fff;
+$color-gray-dark: #777;
+$color-black: #000;
+$color-transparent: rgba(0,0,0,0);
+
+$shadow-big: 0 1.5rem 4rem rgba($color-black, .1);
+$shadow-small: 0 1.5rem 2rem rgba($color-black, .1);
+$shadow-xsmall: 0 .5rem 1rem rgba($color-black, .15);
+
+//FONTS
+
+$default-font-size: 1.6rem;
+$large-header-size: 6rem;
+$medium-header-size: 4.5rem;
+$small-header-size: 3rem;
+$medium-font-size: 2rem;
+$small-font-size: 1.2rem;
+
+
+//GRID
+$grid-width: 105rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 4rem;
+
+// BORDER RADIUS
+$radius: 1rem;
+
+// BREAKPOINTS
+
+$break-small: 60rem;
+$break-medium: 90rem;
+$break-large: 120rem;
+$break-xlarge: 150rem;

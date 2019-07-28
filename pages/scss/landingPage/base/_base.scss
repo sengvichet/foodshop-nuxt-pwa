@@ -1,0 +1,36 @@
+
+// BROWSER RESET
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  color: inherit;
+}
+
+// define 1rem: 16px is the browser default, 62.5% of that is 10px.
+html {
+  font-size: 62.5%;    // this computes to 10px! That makes rem-sizes easy, while still allowing user/browser overrides.
+  //
+  // @include respond(big-desk){
+  //   font-size: 75%; // 12 px
+  // }
+  //
+  // @include respond(tab-land){
+  //   font-size: 56.25%;
+  // }
+  //
+  // @include respond(phone){
+  //   font-size: 50%;
+  // }
+}
+
+body {
+  box-sizing: border-box;
+  color: $color-primary-dark;
+}
+
+.landing-page__container {
+  background-color: white;
+}

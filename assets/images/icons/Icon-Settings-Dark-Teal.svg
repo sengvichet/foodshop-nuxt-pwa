@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="22px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>settings</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Sketches" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Hamburger_owner-_menu_contents_1-new" transform="translate(-340.000000, -630.000000)" stroke="#1D7571" stroke-width="2">
+            <g id="settings" transform="translate(341.000000, 631.000000)">
+                <g id="Group-4" transform="translate(0.000000, 1.000000)">
+                    <path d="M1.5,11 L1.5,18" id="Line-4"></path>
+                    <path d="M1.5,0 L1.5,5.57142857" id="Line-2"></path>
+                    <path d="M0,10.5 L3,10.5" id="Line-3"></path>
+                </g>
+                <g id="Group-2" transform="translate(11.500000, 10.000000) rotate(180.000000) translate(-11.500000, -10.000000) translate(9.000000, 0.000000)">
+                    <path d="M2.5,10 L2.5,19.1304348" id="Line-4"></path>
+                    <path d="M2.5,0.869565217 L2.5,5.2173913" id="Line-2"></path>
+                    <path d="M1,5.65217391 L4,5.65217391" id="Line-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

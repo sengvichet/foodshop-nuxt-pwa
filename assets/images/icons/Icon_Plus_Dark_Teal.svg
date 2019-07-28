@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PlusButton" transform="translate(-17.000000, -17.000000)" stroke="#1D7571">
+            <path d="M36.05,26.6583333 L27.75,26.6583333 L27.75,18 C27.75,17.7238576 27.5261424,17.5 27.25,17.5 C26.9738576,17.5 26.75,17.7238576 26.75,18 L26.75,26.6583333 L18.05,26.6583333 C17.7738576,26.6583333 17.55,26.882191 17.55,27.1583333 C17.55,27.4344757 17.7738576,27.6583333 18.05,27.6583333 L26.75,27.6583333 L26.75,36 C26.75,36.2761424 26.9738576,36.5 27.25,36.5 C27.5261424,36.5 27.75,36.2761424 27.75,36 L27.75,27.6583333 L36.05,27.6583333 C36.3261424,27.6583333 36.55,27.4344757 36.55,27.1583333 C36.55,26.882191 36.3261424,26.6583333 36.05,26.6583333 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

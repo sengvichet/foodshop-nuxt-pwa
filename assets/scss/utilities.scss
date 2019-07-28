@@ -1,0 +1,44 @@
+.u-flex-col {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.u-width-100 {
+  width: 100% !important ;
+}
+
+.u-margin-right-default {
+  margin-right: 1.5rem;
+}
+
+.u-margin-left-default {
+  margin-left: 1.5rem;
+}
+
+.u-margin-bottom-default {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 3.5rem;
+}
+
+.u-margin-bottom-3.5rem {
+  margin-bottom: 3.5rem;
+}
+
+.u-flex-justify-center {
+  justify-content: center !important;
+}
+
+.u-text-align-center {
+  text-align: center;
+}
+
+.u-negative-margin-top-4rem {
+  margin-top: -4rem;
+}
+
+.u-click-through{
+  pointer-events: none;
+}

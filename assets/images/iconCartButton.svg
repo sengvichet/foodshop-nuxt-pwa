@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="16px" viewBox="0 0 23 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>iconGroup</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Shop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shop_with_Items-in-Cart" transform="translate(-885.000000, -729.000000)" stroke-width="2">
+            <g id="Group" transform="translate(886.000000, 730.000000)">
+                <g id="Group-3">
+                    <path d="M0,0 L2.76592199,-4.4408921e-16 C3.20212861,-5.24219066e-16 3.58800685,0.282746416 3.71944489,0.698679413 L6.43794583,9.30132059 C6.56938387,9.71725358 6.95526211,10 7.39146873,10 L17.5934458,10 C18.0087347,10 18.3808032,9.74332574 18.5282732,9.35510224 L20.8157733,3.33312422 C21.0118908,2.81683326 20.752339,2.23931206 20.2360481,2.04319451 C20.122615,2.000106 20.002287,1.97802198 19.8809458,1.97802198 L4.75585474,1.97802198" id="Path-5" stroke="#08BD4B" stroke-linecap="round"></path>
+                    <circle id="Oval-2" stroke="#000000" cx="8" cy="13" r="1"></circle>
+                    <circle id="Oval-2" stroke="#000000" cx="17" cy="13" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

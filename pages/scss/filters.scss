@@ -1,0 +1,40 @@
+.filter-bar {
+  border-radius: $border-radius-primary;
+  background-color: $list-bar-color;
+  color: $color-primary-dark;
+  @include shadow-primary;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  // min-height: 2rem;
+  line-height: 1;
+  position: relative;
+  margin: $list-bar-margin-bottom / 2;
+  // overflow: hidden;
+  padding: $list-bar-padding;
+
+  &__type {
+    margin: 0;
+    color: $color-primary-info-text;
+    font-weight: 400;
+  }
+
+  &__value {
+    margin: 0;
+    color: $color-primary-dark;
+    font-weight: 600;
+  }
+
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}

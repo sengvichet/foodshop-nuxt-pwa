@@ -1,0 +1,65 @@
+.button-square {
+    position: relative;
+    width: 50%;
+    min-width: 18rem;
+    border-radius: $border-radius-primary;
+    // border: .2rem solid $color-white;
+    padding: $list-bar-padding;
+    min-height: $list-bar-height;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    // padding: 1.2rem 2.5rem;
+    // @include gradient-main;
+    background-color: $color-primary-dark;
+    @include modal-button-text-primary;
+
+    &:focus,
+    &:active,
+    &:visited {
+      decoration: none;
+      outline: none;
+    }
+
+   &--yes {
+     @include modal-button-text-primary;
+    // @include gradient-main;
+   }
+
+   &--no {
+     @include modal-button-text-primary;
+     @include gradient-warning;
+   }
+}
+
+.inline-button {
+  flex-basis: $list-bar-height;
+  height: $list-bar-height;
+  flex-grow: 0;
+  flex-shrink: 0;
+  // margin-left: $list-bar-margin-bottom;
+  background-color: $color-white;
+  border-radius: $border-radius-primary;
+
+  &:focus,
+  &:active,
+  &:visited {
+    decoration: none;
+    outline: none;
+  }
+
+  &--upload {
+    background-image: url(~assets/images/icons/Icon-Camera-Dark-Teal.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &--delete {
+    background-image: url(~assets/images/icons/Icon-Garbage-Can-Red.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+  }
+}
