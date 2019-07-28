@@ -2,7 +2,7 @@
   "name": "metamat-iot",
   "version": "1.0.0",
   "description": "Glad i mat - HACCP IK-Mat",
-  "author": "Mohammed Atalla",
+  "author": "Vichet S",
   "private": true,
   "scripts": {
     "scss": "node-sass assets/scss/main.scss assets/css/new-app-styles.css -w",
